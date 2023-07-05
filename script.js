@@ -15,14 +15,14 @@ function subtract(){
     let a = Number(document.getElementById("num1-el").value);
     let b = Number(document.getElementById("num2-el").value);
    let sub = a - b;
-   document.getElementById("sum1").textContent= "subtraction: " + sub ;
+   document.getElementById("sum1").textContent= "sum: " + sub ;
 
 }
 function divide(){
     let a = Number(document.getElementById("num1-el").value);
     let b = Number(document.getElementById("num2-el").value);
     let div = a/b;
-   document.getElementById("sum1").textContent= "Division: " + div ;
+   document.getElementById("sum1").textContent= "Sum: " + div ;
 
 }
 
@@ -30,7 +30,7 @@ function multiply(){
     let a = Number(document.getElementById("num1-el").value);
     let b = Number(document.getElementById("num2-el").value);
     let mul = a*b;
-   document.getElementById("sum1").textContent= "Multiplication: " + mul ;
+   document.getElementById("sum1").textContent= "Sum: " + mul ;
 
 }
 
